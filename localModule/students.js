@@ -12,7 +12,14 @@ const getLocation = () => {
 
 const result = 3.6;
 
-exports.getName = getName;
-exports.getAge = getAge;
-exports.getLocation = getLocation;
-exports.result = result;
+// exports.getName = getName;
+// exports.getAge = getAge;
+// exports.getLocation = getLocation;
+// exports.result = result;
+
+module.exports = {
+  getName,
+  getAge,
+  getLocation,
+  result,
+};
