@@ -1,8 +1,9 @@
 const fs = require("fs");
-fs.unlink("nameData.txt", (err) => {
-  if (err) {
-    console.log(err);
+// need a result boolean value for true or false value
+fs.exists("nameData.txt", (result) => {
+  if (result) {
+    console.log("found");
   } else {
-    console.log("successful");
+    console.log("not found");
   }
 });
