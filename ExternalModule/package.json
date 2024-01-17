@@ -1,0 +1,15 @@
+{
+  "name": "externalmodule",
+  "version": "1.0.0",
+  "description": "use for testing practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nuruzzaman",
+  "license": "ISC",
+  "dependencies": {
+    "bangla-tarikh": "^1.0.6",
+    "random-fruits-name": "^1.10.0"
+  }
+}
