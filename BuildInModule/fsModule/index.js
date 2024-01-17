@@ -1,5 +1,5 @@
 const fs = require("fs");
-fs.rename("name.txt", "nameData.txt", (err) => {
+fs.unlink("nameData.txt", (err) => {
   if (err) {
     console.log(err);
   } else {
