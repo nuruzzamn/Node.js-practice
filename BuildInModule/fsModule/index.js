@@ -1,8 +1,8 @@
 const fs = require("fs");
-fs.readFile("name.txt", "utf-8", (err, data) => {
+fs.rename("name.txt", "nameData.txt", (err) => {
   if (err) {
     console.log(err);
   } else {
-    console.log(data);
+    console.log("successful");
   }
 });
