@@ -1,8 +1,8 @@
 const fs = require("fs");
-fs.appendFile("name.txt", `${""} all are my friends`, (err) => {
+fs.readFile("name.txt", "utf-8", (err, data) => {
   if (err) {
     console.log(err);
   } else {
-    console.log("successfull");
+    console.log(data);
   }
 });
