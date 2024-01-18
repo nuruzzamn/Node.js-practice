@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "name": "httprouting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "nuruzzaman",
+  "license": "ISC",
+  "description": ""
+}
